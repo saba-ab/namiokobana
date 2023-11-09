@@ -42,4 +42,25 @@
   color: #fff;
   font-family: Helvetica;
   font-size: 18px;
+  cursor: pointer;
+}
+.input button:hover {
+  scale: 1.1;
+  background-color: rgb(150, 69, 221);
+  transition: 0.5s ease;
+}
+.reset {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(164, 96, 227);
+  font-size: 22px;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+}
+.reset:hover {
+  scale: 1.1;
+  background-color: rgb(150, 69, 221);
+  transition: 0.5s ease;
 }

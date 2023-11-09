@@ -1,5 +1,5 @@
-import QuestionInterface from "../interface/QuestionInterface";
-export const questions: QuestionInterface[] = [
+import Question from "../interface/QuestionInterface";
+export const questions: Question[] = [
   {
     question: "ცხარეა",
     answer: "ოსტრი",
@@ -20,7 +20,7 @@ export const questions: QuestionInterface[] = [
   },
   {
     question: "ჯანსაღია",
-    answer: "სალათა",
+    answer: "სალათი",
     id: 4,
     is_correct: false,
   },
